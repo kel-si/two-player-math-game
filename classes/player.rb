@@ -15,7 +15,3 @@ class Player
   end
 
 end
-
-# p1 = Player.new 'p1'
-# puts p1.name
-# puts p1.score
