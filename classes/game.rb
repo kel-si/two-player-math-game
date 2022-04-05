@@ -1,4 +1,6 @@
 class Game
+  attr_reader :name
+  attr_writer :question
 
   def initialize name
     @name = name
@@ -6,4 +8,8 @@ class Game
     @p2 = Player.new 'P2'
   end
 
+  def check_answer
+
+  end
 end
+
